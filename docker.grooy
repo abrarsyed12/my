@@ -8,7 +8,7 @@ stages{
    }
    stage('build'){
        steps{
-          echo "buildl"
+          echo "bui    ,mv,jvvjvjbldl"
        }
    }
    stage('test'){
