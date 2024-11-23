@@ -3,7 +3,7 @@ pipeline{
 stages{
    stage('code'){
        steps{
-           echo "hell hvms m s shjcgchjvhjo"
+           echo "hell jb,j .vjkbhvms m s shjcgchjvhjo"
        }
    }
    stage('build'){
