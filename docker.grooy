@@ -1,7 +1,7 @@
 pipeline{
    agent{label 'ab'}
 stages{
-   stage('code'){
+   stage('cjdsskn'){
        steps{
            echo "newcode"
        }
