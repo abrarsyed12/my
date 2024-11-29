@@ -8,7 +8,7 @@ pipeline{
     }
     stage('build'){
       steps{
-        echo "build"
+        echo "build new"
       }
     }
     stage('push'){
