@@ -3,7 +3,7 @@ pipeline{
 stages{
    stage('code'){
        steps{
-           echo "new"
+           echo "njsdkbksw"
        }
    }
    stage('build'){
