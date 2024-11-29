@@ -3,7 +3,7 @@ pipeline{
 stages{
    stage('cjdss'){
        steps{
-           echo "newcode"
+           echo "new"
        }
    }
    stage('build'){
