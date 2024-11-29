@@ -8,7 +8,7 @@ stages{
    }
    stage('build'){
        steps{
-          echo "bui bxskskkslsm   ,mv,jvvjvjbldl"
+          echo "bui bxskskkslsmvjvjbldl"
        }
    }
    stage('test'){
