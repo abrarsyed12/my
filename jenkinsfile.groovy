@@ -13,7 +13,7 @@ pipeline{
     }
     stage('push'){
       steps{
-        echo "push"
+        echo "push new"
       }
     }
   }
