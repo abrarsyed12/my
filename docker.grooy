@@ -13,7 +13,7 @@ stages{
    }
    stage('test'){
        steps{
-          echo "ne"
+          echo "new"
        }
    }
    stage('deploy'){
