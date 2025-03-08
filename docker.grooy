@@ -1,25 +1,8 @@
-pipeline{
-   agent{label 'abrar'}
-stages{
-   stage('cjdss'){
-       steps{
-           echo "new"
-       }
-   }
-   stage('build'){
-       steps{
-          echo "build"
-       }
-   }
-   stage('test'){
-       steps{
-          echo "new"
-       }
-   }
-   stage('deploy'){
-       steps{
-           echo "jenkin"
-       }
-   }
-}
-}
+FROM python
+LABEL maintainer="syed abrar"
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+EXPOSE 5000
+ENTRYPOINT ["python","app.py"]
